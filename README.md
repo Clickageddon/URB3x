@@ -1,24 +1,25 @@
-# 🚀 Nom de votre Projet
+# 🌿 Urb3x
 
 ## 📝 Description
 
-Une description claire et concise (5-10 lignes) de votre projet.
+C'est un jeu de dans une jungle que ya une ville et c'est comme animal well
 
-- Quel est l'objectif ?
-- Pourquoi avez-vous choisi ce sujet ?
-- En quoi répond-il aux critères d'originalité ou d'utilité des Trophées NSI ?
+- le jeu sert a jouer
+- on a choisi ca car animal well c'est bien
+- le jeu est original car on est laché dans la nature sans rien savoir
 
 ## 👥 L'Équipe
 
-- **Nom Prénom** (@pseudo_git) : Responsable [ex: Algorithmique & Logique]
-- **Nom Prénom** (@pseudo_git) : Responsable [ex: Interface Graphique & Assets]
-- **Nom Prénom** (@pseudo_git) : Responsable [ex: Gestion des données & Documentation]
+- **Louis Maury Brunet** (@Clickageddon) : Responsable [ex: Algorithmique & Logique]
+- **Anton Rabier** (@atnrbr) : Responsable [ex: Interface Graphique & Assets]
+- **Maël Boulanger** (@Sponjy) : Responsable [ex: Gestion des données & Documentation]
+- **Igor Belekhov** (@igorbelekhov-max) : Responsable [ex: Gestion des données & Documentation]
 
 ## 🛠️ Aspects Techniques (Spécificités NSI)
 
 Cette section est cruciale pour le jury. Expliquez comment vous avez utilisé le programme de NSI :
 
-- **Langages & Libs :** Python (Pygame, SQLite, etc.)
+- **Langages & Libs :** Python (Pygame)
 - **Structures de données :** Utilisation de dictionnaires pour gérer l'inventaire, de listes de listes pour la grille du jeu, etc.
 - **Concepts mobilisés :** - Programmation Orientée Objet (ex: classe `Player` et `Enemy`).
   - Récursivité (ex: pour l'algorithme de parcours de labyrinthe).
