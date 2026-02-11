@@ -10,10 +10,10 @@ C'est un jeu de dans une jungle que ya une ville et c'est comme animal well
 
 ## 👥 L'Équipe
 
-- **Louis Maury Brunet** (@Clickageddon) : Responsable [ex: Algorithmique & Logique]
-- **Anton Rabier** (@atnrbr) : Responsable [ex: Interface Graphique & Assets]
-- **Maël Boulanger** (@Sponjy) : Responsable [ex: Gestion des données & Documentation]
-- **Igor Belekhov** (@igorbelekhov-max) : Responsable [ex: Gestion des données & Documentation]
+- **Louis Maury Brunet** (@Clickageddon) : Responsable dev. Level design. 
+- **Anton Rabier** (@atnrbr) : Responsable Texturing , Asetts graphiques 
+- **Maël Boulanger** (@Sponjy) : Responsable : Direction artistique, musique, sound design
+- **Igor Belekhov** (@igorbelekhov-max) : Responsable : dev. Texturing
 
 ## 🛠️ Aspects Techniques (Spécificités NSI)
 
