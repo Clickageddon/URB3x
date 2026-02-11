@@ -5,7 +5,7 @@
 Urb3x est un jeu 2D qui se base sur exploration dans un environnement post-apocalyptique
 
 - Le jeu est également narratif avec du lore mystérieux et donc des dialogues. 
-- L'environnement et l'ambiance étaient crées en s'inspirant de "Animal Well" aveun gameplay à la Celeste.
+- L'environnement et l'ambiance étaient crées en s'inspirant de "Animal Well" avec un gameplay à la Celeste.
 - Le jeu est original car il combine la nature et la science-fiction dans les ruines d'une ville
 
 ## 👥 L'Équipe
