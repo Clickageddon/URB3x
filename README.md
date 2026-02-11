@@ -2,11 +2,11 @@
 
 ## 📝 Description
 
-C'est un jeu de dans une jungle que ya une ville et c'est comme animal well
+Urb3x est un jeu 2D qui se base sur exploration dans un environnement post-apocalyptique
 
-- le jeu sert a jouer
-- on a choisi ca car animal well c'est bien
-- le jeu est original car on est laché dans la nature sans rien savoir
+- Le jeu sert a se divertir
+- L'environnement et l'ambiance étaient crées en s'inspirant par un jeu "Animal Well"
+- Le jeu est original car il combine la nature et la science-fiction dans les ruines d'une ville
 
 ## 👥 L'Équipe
 
