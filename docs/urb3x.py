@@ -40,7 +40,7 @@ for key in textures:
 # -------------------
 # 0 = vide
 # 1 = bloc
-# 2 = mort
+# 2 = ronces (tue le joueur)
 # P = spawn joueur
 
 level_map = [
@@ -194,3 +194,4 @@ while True:
 
     pygame.display.update()
     clock.tick(60)
+
