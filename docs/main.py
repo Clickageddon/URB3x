@@ -22,7 +22,7 @@ TILE_SIZE = 40
 background = pygame.image.load("background4.jpg")
 background = pygame.transform.scale(background, (WIDTH, HEIGHT))
 
-player_texture = pygame.image.load("potato.png")
+player_texture = pygame.image.load("tuffest_tuff.png")
 player_texture = pygame.transform.scale(player_texture, (30, 40))
 
 textures = {
