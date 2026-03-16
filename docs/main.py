@@ -39,12 +39,6 @@ for key in textures:
 # -------------------
 # MAP
 # -------------------
-# 0 = vide
-# 1 = bloc
-# 2 = ronces (tue le joueur)
-# 3 = bloc test -> aucune collision
-# L = échelle
-# P = spawn joueur
 
 level_map = [
 '00000000000000000000000000000000000000',
@@ -93,6 +87,66 @@ level_map = [
 '00000000000000000000000000000000000000'
 ]
 
+# -------------------
+# BIOME MAP
+# -------------------
+
+biome_map = [
+'00000000000000000000000000000000000000',
+'03333333333333333333333333333333333330',
+'03333333333333333333333333333333333330',
+'03333333333333333333333333333333333330',
+'03333333333333333333333333333333333330',
+'03333333333333333333333333333333333330',
+'03333333333333333333333333333333333330',
+'03333333333333333333333333333333333330',
+'03333333333333333333333333333333333330',
+'03333333333333333333333333333333333330',
+'03333333333333333333333333333333333330',
+'03333333333333333333333333333333333330',
+'03333333333333333333333333333333333330',
+'03333333333333333333333333333333333330',
+'03333333333333333333333333333333333330',
+'03333333333333333333333333333333333330',
+'03333333333333333333333333333333333330',
+'03333333333333333333333333333333333330',
+'03333333333333333333333333333333333330',
+'00000000000000000000300000000000000000',
+'00000000000000000000300000000000000000',
+'00000000000000000000300000000000000000',
+'00000000000000000000300000000000000000',
+'00000000000000000000300000000000000000',
+'00333333333333300000300000000000000000',
+'00333333333333300000300000000000000000',
+'00333333333333300000300000000000000000',
+'00030000000000000000300000000000000000',
+'00333333333333333333333333000000000000',
+'00333333333333333333333333300000000000',
+'00333333333333333333333333330000000000',
+'00020000000000000000000000000000000000',
+'00222222222222222222222222222222222200',
+'00222222222222222222222222222222222200',
+'00222222222222222222222222222222222200',
+'00000000000000000000000000000000001000',
+'00000000000000000000000000000000011100',
+'00000000000000000000000000000000011100',
+'00000000000000000000000000000000011100',
+'00111111111111111111111111111111111100',
+'00111111111111111111111111111111111100',
+'00111111111111111111111111111111111100',
+'00000000000000000000000000000000000000']
+
+# -------------------
+# NOMS DES BIOMES
+# -------------------
+
+biome_names = {
+    "0": "vide",
+    "1": "floor 0",
+    "2": "floor 1",
+    "3": "floor 2"
+}
+
 tiles = []
 deadly_tiles = []
 no_collision_tiles = []
@@ -100,7 +154,6 @@ ladder_tiles = []
 
 spawn_x = 100
 spawn_y = 100
-
 
 # LECTURE MAP
 for y, row in enumerate(level_map):
@@ -125,6 +178,12 @@ for y, row in enumerate(level_map):
             spawn_x = world_x
             spawn_y = world_y
 
+# LECTURE BIOME MAP
+biome_tiles = {}
+
+for y, row in enumerate(biome_map):
+    for x, biome in enumerate(row):
+        biome_tiles[(x, y)] = biome
 
 player = pygame.Rect(spawn_x, spawn_y, 30, 40)
 
@@ -137,18 +196,13 @@ on_ground = False
 camera_x = 0
 camera_y = 0
 
-
 def respawn():
     global vel_y
     player.x = spawn_x
     player.y = spawn_y
     vel_y = 0
 
-
-# -------------------
 # GAME LOOP
-# -------------------
-
 while True:
 
     for event in pygame.event.get():
@@ -166,16 +220,13 @@ while True:
     if keys[pygame.K_d]:
         dx += speed
 
-    # DETECTION ECHELLE
     on_ladder = False
     for tile in ladder_tiles:
         if player.colliderect(tile):
             on_ladder = True
 
-    # DETECTION JOUEUR AU DESSUS D'UNE ECHELLE
     on_top_of_ladder = False
     for tile in ladder_tiles:
-
         if (
             player.bottom <= tile.top + 5 and
             player.bottom >= tile.top - 5 and
@@ -184,7 +235,6 @@ while True:
         ):
             on_top_of_ladder = True
 
-    # MOUVEMENT ECHELLE
     if on_ladder:
         vel_y = 0
 
@@ -194,94 +244,68 @@ while True:
         if keys[pygame.K_s]:
             player.y += 4
 
-    # SAUT
     if keys[pygame.K_SPACE] and on_ground and not on_ladder:
         vel_y = jump_power
     if keys[pygame.K_SPACE] and on_top_of_ladder:
         vel_y = jump_power
 
-    # GRAVITE
     if not on_ladder:
         vel_y += gravity
         dy += vel_y
 
-    # COLLISION HORIZONTALE
     player.x += dx
 
     for tile in tiles:
         if player.colliderect(tile):
-
             if dx > 0:
                 player.right = tile.left
-
             if dx < 0:
                 player.left = tile.right
 
-    # COLLISION VERTICALE
     player.y += dy
     on_ground = False
 
     for tile in tiles:
-
         if player.colliderect(tile):
-
             if vel_y > 0:
                 player.bottom = tile.top
                 vel_y = 0
                 on_ground = True
-
             elif vel_y < 0:
                 player.top = tile.bottom
                 vel_y = 0
 
-    # TILE MORTELLE
     for tile in deadly_tiles:
         if player.colliderect(tile):
             respawn()
 
-    # CAMERA
     camera_x = player.centerx - WIDTH // 2
     camera_y = player.centery - HEIGHT // 2
 
-    # -------------------
-    # DESSIN
-    # -------------------
+    # DETECTION BIOME JOUEUR
+    player_tile_x = player.centerx // TILE_SIZE
+    player_tile_y = player.centery // TILE_SIZE
+
+    current_biome = biome_tiles.get((player_tile_x, player_tile_y), "0")
+    biome_name = biome_names.get(current_biome, "inconnu")
+
+    pygame.display.set_caption(f"URB-3x | Biome: {biome_name}")
 
     screen.blit(background, (0, 0))
 
-    # tiles normales
     for tile in tiles:
-        screen.blit(
-            textures["1"],
-            (tile.x - camera_x, tile.y - camera_y)
-        )
+        screen.blit(textures["1"], (tile.x - camera_x, tile.y - camera_y))
 
-    # tiles mortelles
     for tile in deadly_tiles:
-        screen.blit(
-            textures["2"],
-            (tile.x - camera_x, tile.y - camera_y)
-        )
+        screen.blit(textures["2"], (tile.x - camera_x, tile.y - camera_y))
 
-    # echelles
     for tile in ladder_tiles:
-        screen.blit(
-            textures["L"],
-            (tile.x - camera_x, tile.y - camera_y)
-        )
+        screen.blit(textures["L"], (tile.x - camera_x, tile.y - camera_y))
 
-    # joueur
-    screen.blit(
-        player_texture,
-        (player.x - camera_x, player.y - camera_y)
-    )
+    screen.blit(player_texture, (player.x - camera_x, player.y - camera_y))
 
-    # tiles sans collision ( devant le joueur )
     for tile in no_collision_tiles:
-        screen.blit(
-            textures["3"],
-            (tile.x - camera_x, tile.y - camera_y)
-        )
+        screen.blit(textures["3"], (tile.x - camera_x, tile.y - camera_y))
 
     pygame.display.update()
     clock.tick(60)
