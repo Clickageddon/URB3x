@@ -3,7 +3,7 @@ import sys
 
 pygame.init()
 pygame.mixer.init()
-pygame.mixer.music.load("nullscapes.mp3")
+pygame.mixer.music.load("kocmoc_unleashed.mp3")
 pygame.mixer.music.set_volume(0.3)
 pygame.mixer.music.play(-1)
 
@@ -19,7 +19,7 @@ TILE_SIZE = 40
 # CHARGEMENT IMAGES
 # -------------------
 
-background = pygame.image.load("background3.png")
+background = pygame.image.load("background4.jpg")
 background = pygame.transform.scale(background, (WIDTH, HEIGHT))
 
 player_texture = pygame.image.load("potato.png")
