@@ -1,12 +1,12 @@
-# 🌿 URB-3x
+# 🌿 URB-3x by the Low Qualiteam
 
 ## 📝 Description
 
-Urb3x est un jeu 2D qui se base sur exploration dans un environnement post-apocalyptique
+Urb3x est un jeu platformer 2D qui se base sur exploration dans un environnement post-apocalyptique
 
-- Le jeu est également narratif avec du lore mystérieux et donc des dialogues. 
-- L'environnement et l'ambiance étaient crées en s'inspirant de "Animal Well" avec un gameplay à la Celeste.
-- Le jeu est original car il combine la nature et la science-fiction dans les ruines d'une ville
+- Le jeu utilise un système de narration environemental, il est donc au joueur de comprendre le monde qui l'entour
+- L'environnement est inspiré du style de jeu métroidvania
+- Le jeu est original car il combine la nature et la science-fiction dans un monde dystopique
 
 ## 👥 Équipe : Low Qualiteam
 
