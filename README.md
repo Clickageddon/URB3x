@@ -1,4 +1,4 @@
-# 🌿 Urb3x
+# 🌿 URB-3x
 
 ## 📝 Description
 
@@ -8,9 +8,9 @@ Urb3x est un jeu 2D qui se base sur exploration dans un environnement post-apoca
 - L'environnement et l'ambiance étaient crées en s'inspirant de "Animal Well" avec un gameplay à la Celeste.
 - Le jeu est original car il combine la nature et la science-fiction dans les ruines d'une ville
 
-## 👥 L'Équipe
+## 👥 Équipe : Low Qualiteam
 
-- **Louis Maury Brunet** (@Clickageddon) dev. : Responsable  Level design. 
+- **Louis Maury Brunet** (@Clickageddon) dev. : Responsable  Level design
 - **Anton Rabier** (@atnrbr) dev. : Responsable :  Texturing , Asetts graphiques 
 - **Maël Boulanger** (@Sponjy) dev. : Responsable : Direction artistique, musique, sound design
 - **Igor Belekhov** (@igorbelekhov-max) dev.  Responsable :  Texturing
