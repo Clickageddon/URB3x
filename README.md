@@ -11,8 +11,8 @@ Urb3x est un jeu platformer 2D qui se base sur exploration dans un environnement
 ## 👥 Équipe : Low Qualiteam
 
 - **Louis Maury Brunet** (@Clickageddon) dev. : Responsable  Level design
-- **Anton Rabier** (@atnrbr) dev. : Responsable :  Texturing , Asetts graphiques 
-- **Maël Boulanger** (@Sponjy) dev. : Responsable : Direction artistique, musique, sound design
+- **Anton Rabier** (@atnrbr) dev. : Responsable :  texturing , asetts graphiques 
+- **Maël Boulanger** (@Sponjy) dev. : Responsable : musique, sound design
 - **Igor Belekhov** (@igorbelekhov-max) dev.  Responsable :  Texturing
 
 ## 🛠️ Aspects Techniques (Spécificités NSI)
