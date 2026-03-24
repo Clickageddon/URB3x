@@ -3,7 +3,7 @@ import sys
 
 pygame.init()
 pygame.mixer.init()
-pygame.mixer.music.load("nothing_more.mp3")
+pygame.mixer.music.load("Nothing_more.mp3")
 pygame.mixer.music.set_volume(0.3)
 pygame.mixer.music.play(-1)
 
