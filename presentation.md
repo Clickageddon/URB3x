@@ -1,3 +1,9 @@
-2026-02-04
-Création de l'espace github
-Complexité a progresser
+Présentation globale du projet:
+
+Organisation du travail:
+
+Présentation des étapes du projet:
+
+Validation de l'opérationnalité et du fonctionnement:
+
+Ouverture:
