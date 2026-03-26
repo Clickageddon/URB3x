@@ -1,9 +1,9 @@
-#Présentation globale du projet
+# Présentation globale du projet
 
-#Organisation du travail
+# Organisation du travail
 
-#Présentation des étapes du projet
+# Présentation des étapes du projet
 
-#Validation de l'opérationnalité et du fonctionnement
+# Validation de l'opérationnalité et du fonctionnement
 
-#Ouverture
+# Ouverture
