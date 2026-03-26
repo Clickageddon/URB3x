@@ -31,8 +31,8 @@ Expliquez comment tester votre projet :
 ## 📊 État d'avancement (Journal de bord)
 
 - [x] Jalon 1 : Cahier des charges et structure de base.
-- [ ] Jalon 2 : Logique principale fonctionnelle.
-- [ ] Jalon 3 : Interface graphique finale.
+- [x] Jalon 2 : Logique principale fonctionnelle.
+- [x] Jalon 3 : Interface graphique finale.
 - [ ] Jalon 4 : Vidéo de démonstration et tests unitaires.
 
 ## 📸 Captures d'écran
