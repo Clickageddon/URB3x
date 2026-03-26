@@ -17,8 +17,6 @@ Urb3x est un jeu platformer 2D qui se base sur exploration dans un environnement
 
 ## 🛠️ Aspects Techniques (Spécificités NSI)
 
-Cette section est cruciale pour le jury. Expliquez comment vous avez utilisé le programme de NSI :
-
 - **Langages & Libs :** Python (Pygame)
 - **Structures de données :** Utilisation de dictionnaires pour gérer l'inventaire, de listes de listes pour la grille du jeu, etc.
 - **Concepts mobilisés :** - Programmation Orientée Objet (ex: classe `Player` et `Enemy`).
