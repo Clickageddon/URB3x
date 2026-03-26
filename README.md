@@ -17,11 +17,8 @@ Urb3x est un jeu platformer 2D qui se base sur exploration dans un environnement
 
 ## 🛠️ Aspects Techniques (Spécificités NSI)
 
-- **Langages & Libs :** Python (Pygame)
-- **Structures de données :** Utilisation de dictionnaires pour gérer l'inventaire, de listes de listes pour la grille du jeu, etc.
-- **Concepts mobilisés :** - Programmation Orientée Objet (ex: classe `Player` et `Enemy`).
-  - Récursivité (ex: pour l'algorithme de parcours de labyrinthe).
-  - Gestion de fichiers (ex: sauvegarde des scores en JSON).
+- **Langages & Libs :** Python (pygame, sys)
+- **Structures de données :** Utilisation de dictionnaires pour gérer les textures, de liste pour la grille du jeu
 
 ## 🚀 Installation et Utilisation
 
