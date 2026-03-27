@@ -4,11 +4,13 @@ idée de base : créer un monde a explorer
 ### Anton ( atnrbr ):
 - développement
 - création des textures
-### Igor ()
+### Igor (igorbelekhov-max):
+- développement
+- création des textures
+### Maël ()
 ### Louis ( Clickageddon ):
 - développement
 - création de la carte
-###
 
 # Présentation des étapes du projet
 - du 2025-02-21 au 2025-03-08
