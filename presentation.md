@@ -26,9 +26,7 @@ Urb-3x est un jeu platformer 2D qui se base sur exploration dans un environnemen
 - du 2026-02-21 au 2026-03-08
   stagnation du projet causé par l'oral blanc
 - du 2026-03-13 au 2026-03-23
-  finalisation de la carte
-  création des textures
-  création de la musique
+  finalisation de la carte / création des textures / création de la musique
 - 2026-03-27
   problème -> le code n'est plus modifiable
 # Validation de l'opérationnalité et du fonctionnement
