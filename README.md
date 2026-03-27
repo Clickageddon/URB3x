@@ -24,16 +24,9 @@ Urb3x est un jeu platformer 2D qui se base sur exploration dans un environnement
 
 Expliquez comment tester votre projet :
 
-1. **Prérequis :** (ex: Python 3.10+)
-2. **Installation des dépendances :** `pip install -r requirements.txt`
+1. **Prérequis :** Python 3.10+
+2. **Installation des dépendances :** 
 3. **Lancement :** `python main.py`
-
-## 📊 État d'avancement (Journal de bord)
-
-- [x] Jalon 1 : Cahier des charges et structure de base.
-- [x] Jalon 2 : Logique principale fonctionnelle.
-- [x] Jalon 3 : Interface graphique finale.
-- [ ] Jalon 4 : Vidéo de démonstration et tests unitaires.
 
 ## 📸 Captures d'écran
 >
