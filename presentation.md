@@ -23,7 +23,7 @@ idée de base : créer un monde a explorer
   création des textures
   création de la musique
 # Validation de l'opérationnalité et du fonctionnement
-
+[x] déplacement ( horizontale et verticale )
 # Ouverture
 -Louis ( Clickageddon ):
 
