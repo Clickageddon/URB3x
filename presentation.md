@@ -29,5 +29,6 @@ déplacement opérationnel ( horizontale et verticale )
 collisions fonctionnelles
 double saut non fonctionnel
 # Ouverture
--Louis ( Clickageddon ):
 
+- amélioration graphique possible
+- améliora
