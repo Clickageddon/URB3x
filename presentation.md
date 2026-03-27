@@ -40,3 +40,8 @@ Urb-3x est un jeu platformer 2D qui se base sur exploration dans un environnemen
 - amélioration des performances
 - agrandissement de la carte
 - ajout de capacité
+
+### Igor (igorbelekhov-max):
+- bon concept des zones de la carte
+- bon concept de narration environemental
+- amélioreation ou changement des certaines textures
