@@ -5,7 +5,6 @@
 - **Maël Boulanger** (@Sponjy) : sur l'image -> haut droit
 - **Igor Belekhov** (@igorbelekhov-max) : sur l'image -> haut gauche
 
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/eda05b53-2e9d-4527-98f9-28bb8b2ce8a2" />
 
 
 ## 🛠️ Aspects Techniques (Spécificités NSI)
