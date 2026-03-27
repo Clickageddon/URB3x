@@ -5,6 +5,9 @@
 - **Maël Boulanger** (@Sponjy) : sur l'image -> haut droit
 - **Igor Belekhov** (@igorbelekhov-max) : sur l'image -> haut gauche
 
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/4e22e6d8-c3b8-4fdb-8150-7c5d798c67b1" />
+
+
 ## Aspects Techniques (Spécificités NSI)
 
 - **Langages & Libs :** Python (pygame, sys)
