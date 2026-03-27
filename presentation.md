@@ -16,8 +16,12 @@ idée de base : créer un monde a explorer
 - création de la carte
 
 # Présentation des étapes du projet
-- du 2025-02-21 au 2025-03-08
+- du 2026-02-21 au 2026-03-08
   stagnation du projet causé par l'oral blanc
+- du 2026-03-13 au 2026-03-27
+  finalisation de la carte
+  création des textures
+  création de la musique
 # Validation de l'opérationnalité et du fonctionnement
 
 # Ouverture
