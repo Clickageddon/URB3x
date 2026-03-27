@@ -1,9 +1,12 @@
 # Présentation globale du projet
-
+idée de base : créer un monde a explorer
 # Organisation du travail
 
 # Présentation des étapes du projet
-
+- du 2025-02-21 au 2025-03-08
+  stagnation du projet causé par l'oral blanc
 # Validation de l'opérationnalité et du fonctionnement
 
 # Ouverture
+-Louis ( Clickageddon ):
+
