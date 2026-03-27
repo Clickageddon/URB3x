@@ -1,6 +1,7 @@
 # Présentation globale du projet
 idée de base : créer un monde a explorer
 # Organisation du travail
+### Louis ( Clickageddon ):
 
 # Présentation des étapes du projet
 - du 2025-02-21 au 2025-03-08
