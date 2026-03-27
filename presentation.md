@@ -1,5 +1,12 @@
 # Présentation globale du projet
 idée de base : créer un monde a explorer
+
+Urb-3x est un jeu platformer 2D qui se base sur exploration dans un environnement post-apocalyptique
+
+- Le jeu utilise un système de narration environemental, il est donc au joueur de comprendre le monde qui l'entour
+- L'environnement est inspiré du style de jeu métroidvania
+- Le jeu est original car il combine la nature et la science-fiction dans un monde dystopique
+
 # Organisation du travail
 ### Anton ( atnrbr ):
 - développement
