@@ -1,7 +1,10 @@
 # Présentation globale du projet
 idée de base : créer un monde a explorer
 # Organisation du travail
-### Anton (
+### Anton ( atnrbr ):
+- développement
+- création des textures
+### Igor ()
 ### Louis ( Clickageddon ):
 - développement
 - création de la carte
