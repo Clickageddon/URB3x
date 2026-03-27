@@ -7,7 +7,10 @@ idée de base : créer un monde a explorer
 ### Igor (igorbelekhov-max):
 - développement
 - création des textures
-### Maël ()
+### Maël (Sponjy):
+- développement
+- création de l'univers
+- musique
 ### Louis ( Clickageddon ):
 - développement
 - création de la carte
