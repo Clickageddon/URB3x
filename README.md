@@ -39,7 +39,3 @@ Expliquez comment tester votre projet :
 >
 > *Ajoutez ici une ou deux images de votre projet en action.*
 ![Aperçu du projet](lien_vers_image.png)
-
-## 📜 Licence
-
-Le code du projet est placé sous licence libre GPL v3+ et le texte sous licence Creative Commons CC By-Sa.
